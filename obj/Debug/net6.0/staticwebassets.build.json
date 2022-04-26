@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qFe5ioeOhyRzB6JCPeDGblGxqjwohp1UqtyeFRwLFjM=",
+  "Source": "SkynetApi",
+  "BasePath": "_content/SkynetApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
