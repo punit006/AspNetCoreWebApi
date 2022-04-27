@@ -1,4 +1,4 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Npgsql;
 using System.Data;
 
 namespace webapi
@@ -10,9 +10,9 @@ namespace webapi
         public DapperContext(IConfiguration configuration)
         {
             _configuration = configuration;
-            _connectionString = _configuration.GetConnectionString("SqlConnection");
+            _connectionString = _configuration.GetConnectionString("PostgresConnection");
         }
         public IDbConnection CreateConnection()
-            => new SqlConnection(_connectionString);
+            => new NpgsqlConnection(_connectionString);
     }
 }
